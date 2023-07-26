@@ -1,0 +1,34 @@
+body{
+            background-image: linear-gradient(45deg,#d184ef,rgb(236, 231, 231));
+            margin: 0; /* esses dois elementos remove todas as bordas de qualquer elemento que esteja do lado*/
+            padding: 0;
+            height: 750px;
+            
+        }
+        form{
+            background-color:white;
+            position: absolute;
+            padding: 20px;
+            border-radius: 13px;
+            top: 65px;
+            left: 250px;
+            font-size: 22px;
+            box-shadow: 4px 2px 4px rgba(255, 255, 255, 0.6); 
+            
+        }
+        #mensagem{
+            background-color: white;
+            position: relative; /* Alterado para relative */
+            top: 125px; /* Substitua esse valor para posicionar o elemento verticalmente */
+            left: 700px;
+            padding: 50px;
+            width: 400px;
+            border-radius: 13px;
+            box-shadow: 4px 2px 4px rgba(255, 255, 255, 0.6); 
+        }
+        #mensagem, label{
+            font-family:Times, Times New Roman, serif ;
+        }
+        h4,table, #sexo{
+            font-size: 18px;
+        }
